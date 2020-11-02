@@ -3,15 +3,15 @@
   }
   
   body{
-    background : gray;
-  }
-  
+    background : #36353a;
+  } 
+
   .aside{
     width: 150px;
     height : 100vh;
     top: 0;
     left : 0;
-    background-color: #282d32;
+    background-color: #5b5a58;
     position : absolute;
   }
   
@@ -42,10 +42,44 @@
     position:absolute;
     left: 50%;
     transform: translateX(-50%);
-  }
-  
-  .image
+  } 
+
+  .content > p:before{
+    display:block;
+    content:"";
+    width: 50px;
+    height: 4px;
+    background: #4cb480;
+    position:absolute;
+  } 
+  .content
   {
-    display: block;
-    max-width: 100%;
+    text-align: center;
+  }
+
+  .content > p{
+    text-align: left;
+    font-size: 40px;
+    color: #fdfdfb;
+    text-transform: uppercase;
+    word-wrap: break-word;
+  }
+
+  .subtitle > p{
+    text-align: left;
+    font-size: 40px;
+    color: #fdfdfb;
+    text-transform: uppercase;
+    word-wrap: break-word;
+  }
+  .hamlet
+  {
+    text-align: left;
+    color: #fdfdfb;
+    font-size: 40px;
+  }
+  .button
+  {
+    border-radius: 15px;
+    text-align: left;
   }
