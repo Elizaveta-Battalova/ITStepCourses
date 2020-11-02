@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    background : gray;
+  }
+  
+  .aside{
+    width: 150px;
+    height : 100vh;
+    top: 0;
+    left : 0;
+    background-color: #282d32;
+    position : absolute;
+  }
+  
+  .content{
+    margin-left : 150px;
+    padding : 10px;
+  }
+  
+  .logo
+  {
+    text-align: center;
+  }
+  
+  
+  .logo > p{
+    font-size: 32px;
+    color: #4cb480;
+    text-transform: uppercase;
+    word-wrap: break-word;
+  }
+  
+  .logo > p:after{
+    display:block;
+    content:"";
+    width: 50px;
+    height: 4px;
+    background: #4cb480;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .image
+  {
+    display: block;
+    max-width: 100%;
+  }
