@@ -8,7 +8,7 @@
 
   .aside{
     width: 150px;
-    height : 100vh;
+    height : 200vh;
     top: 0;
     left : 0;
     background-color:#282d32;
@@ -75,21 +75,28 @@
     word-wrap: break-word;
     margin-left: 100px;
   }
+  
   .hamlet
   {
     text-align: left;
     color:#9a9d9f;
     font-size: 20px;
     margin-left: 100px;
+    width: 600px;
   }
+
   .button
   {
     border-radius: 15px;
-    margin-right: 860px;
     background-color: #4cb480;
+    color:#fdfdfb;
+  }
+
+  .main-button
+  {
+    margin-right: 860px;
     height: 40px;
     width: 100px;
-    color:#fdfdfb;
   }
 
   .search-icon svg{
@@ -189,6 +196,4 @@
     .item-button
     {
       margin-top: 200px;
-      background-color: #4cb480;
-      border-radius: 15px;
     }
