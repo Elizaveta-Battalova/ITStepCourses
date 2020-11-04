@@ -83,3 +83,102 @@
     border-radius: 15px;
     text-align: left;
   }
+
+  .search-icon svg{
+    fill: white;
+    width: 35px;
+  }
+
+  .search-icon 
+  {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .nav > ul{
+    list-style: none;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+  }
+
+  .nav > ul a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .nav ul li{
+    margin-bottom: 5px;
+  }
+
+  .nav::before, .nav::after{
+    display: block;
+    content: "";
+    width: 90px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: o;
+    left:  50%;
+    transform: translateX(-50%);
+  }
+
+  .nav
+  {
+    position: relative;
+  }
+
+  .nav::after{
+    top: auto;
+    bottom: 0;
+    }
+
+    *{
+      box-sizing: border-box;
+    }
+  
+    .item-wrapper
+    {
+        border: red 1px solid;
+        position: relative;
+        height: 300px;
+        margin-top: 70px;
+        padding: 15px;
+    }
+
+    .item
+    {
+        width: 200px;
+        height: 250px;
+        background-color: gray;
+        position: absolute;
+    }
+
+    .item2
+    {
+        margin-left: 210px ;
+    }
+
+    .item3
+    {
+        margin-left: 420px;
+    }
+
+    .item-content
+    {
+        position: absolute;
+        text-align: center;
+        width: 200px;
+    }
+    
+    .content-text
+    {
+        color: green;
+    }
+
+    .item-button
+    {
+      margin-top: 170px;
+    }
