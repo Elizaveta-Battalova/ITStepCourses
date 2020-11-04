@@ -4,6 +4,7 @@
   
   body{
     background : #36353a;
+    font-family: "Poppins";
   } 
 
   .aside{
@@ -75,7 +76,7 @@
     word-wrap: break-word;
     margin-left: 100px;
   }
-  
+
   .hamlet
   {
     text-align: left;
@@ -94,7 +95,7 @@
 
   .main-button
   {
-    margin-right: 860px;
+    margin-left: -850px;
     height: 40px;
     width: 100px;
   }
@@ -159,10 +160,10 @@
         background-color: #ffffff;
         height: 300px;
         margin-top: 70px;
-        padding: 15px;
+        padding: 30px;
     }
 
-    .item
+   .item
     {
         width: 200px;
         height: 250px;
@@ -196,4 +197,17 @@
     .item-button
     {
       margin-top: 200px;
-    }
+    } */
+    
+    
+      .item-wrapper{
+        border-radius: 6px;
+        margin: 0 30px;
+        padding: 0 62;
+      }
+
+      /* @media(max-width:768px){
+        .item {
+          flex-direction: column;
+        }
+      } */
