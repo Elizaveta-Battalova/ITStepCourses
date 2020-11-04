@@ -11,7 +11,7 @@
     height : 100vh;
     top: 0;
     left : 0;
-    background-color: #5b5a58;
+    background-color:#282d32;
     position : absolute;
   }
   
@@ -55,6 +55,7 @@
   .content
   {
     text-align: center;
+    margin-top: 50px;
   }
 
   .content > p{
@@ -63,29 +64,36 @@
     color: #fdfdfb;
     text-transform: uppercase;
     word-wrap: break-word;
+    margin-left: 100px;
   }
 
   .subtitle > p{
     text-align: left;
-    font-size: 40px;
+    font-size: 30px;
     color: #fdfdfb;
     text-transform: uppercase;
     word-wrap: break-word;
+    margin-left: 100px;
   }
   .hamlet
   {
     text-align: left;
-    color: #fdfdfb;
-    font-size: 40px;
+    color:#9a9d9f;
+    font-size: 20px;
+    margin-left: 100px;
   }
   .button
   {
     border-radius: 15px;
-    text-align: left;
+    margin-right: 860px;
+    background-color: #4cb480;
+    height: 40px;
+    width: 100px;
+    color:#fdfdfb;
   }
 
   .search-icon svg{
-    fill: white;
+    fill:#9a9d9f;
     width: 35px;
   }
 
@@ -103,7 +111,7 @@
   }
 
   .nav > ul a{
-    color: white;
+    color: #9a9d9f;
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
@@ -118,7 +126,7 @@
     content: "";
     width: 90px;
     height: 2px;
-    background-color: white;
+    background-color:#9a9d9f;
     position: absolute;
     top: o;
     left:  50%;
@@ -141,8 +149,7 @@
   
     .item-wrapper
     {
-        border: red 1px solid;
-        position: relative;
+        background-color: #ffffff;
         height: 300px;
         margin-top: 70px;
         padding: 15px;
@@ -152,18 +159,19 @@
     {
         width: 200px;
         height: 250px;
-        background-color: gray;
+        background-color:#f6f6f6;
         position: absolute;
+        margin-left: 225px;
     }
 
     .item2
     {
-        margin-left: 210px ;
+        margin-left: 460px ;
     }
 
     .item3
     {
-        margin-left: 420px;
+        margin-left: 700px;
     }
 
     .item-content
@@ -175,10 +183,12 @@
     
     .content-text
     {
-        color: green;
+        color: #353a3f;
     }
 
     .item-button
     {
-      margin-top: 170px;
+      margin-top: 200px;
+      background-color: #4cb480;
+      border-radius: 15px;
     }
